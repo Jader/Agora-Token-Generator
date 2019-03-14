@@ -1,0 +1,25 @@
+{
+    "name": "jade/agora-token-generator",
+    "description": "Agora-Token-Generator Agora 声网 Token 生成器",
+    "type": "library",
+    "require": {
+        "php": ">=7.1"
+    },
+    "require-dev": {
+        "php": ">=7.1",
+        "phpunit/phpunit": "^8.1@dev"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jade",
+            "email": "hmy940118@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "AgoraTokenGenerator\\": "src/"
+        }
+    }
+}
